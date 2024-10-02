@@ -18,8 +18,8 @@
                 </div>
 
                 <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
-                    <x-nav-link :href="route('posts.create')" :active="request()->routeIs('posts.create')">
-                        {{ __('Posts') }}
+                    <x-nav-link :href="route('single-component')" :active="request()->routeIs('single-component')">
+                        {{ __('Single component') }}
                     </x-nav-link>
                 </div>
             </div>
